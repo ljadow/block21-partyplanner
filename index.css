@@ -1,9 +1,15 @@
 .event {
-    display: block;
-    min-height: 1rem;
-    padding: 1rem;
-    border: 1px solid black;
-    border-radius: 3px;
-    margin: 1rem;
-  }
-  
+  display: block;
+  min-height: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 1rem;
+}
+
+#partyList {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0;
+}
